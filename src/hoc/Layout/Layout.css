@@ -1,0 +1,153 @@
+.Layout {
+    height: 100vh;
+    display: flex;
+}
+
+.MenuOpen {
+    flex: 1;
+    background-color:white; 
+    z-index: 2;
+    box-shadow: 0.1em 0 0.4em 0 #C2CFE0;  
+}
+
+.Search {
+    height: 2.3em;
+    width: 100%;
+    border-bottom: 0.07em solid #C2CFE0;
+}
+.closeMenu{
+    flex: 0.1;
+    background-color:white; 
+    z-index: 2;
+    box-shadow: 0.1em 0 0.4em 0 #C2CFE0;  
+}
+
+.WithoutMenu {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+.Layout main {
+    flex: 9;
+}
+
+.Layout input{
+    flex: 1;
+}
+.Layout input, .Layout button {
+    border: none;
+    outline: none;
+    background-color: white;
+    display: flex;
+}
+
+.Layout form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2.3em;
+}
+
+.Layout form img {
+    padding: 0.4em;
+}
+
+.Nickname {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #109CF1;
+    height: 2.04em;
+    display: flex;
+    align-items: center;    
+    border-bottom: 0.07em solid #C2CFE0;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.ProfileName {
+    font-family: Poppins;
+    font-size: 14px;
+    color: #192A3E;
+}
+
+.EmailAdr {
+    font-family: Poppins;
+    font-size: 11px;
+    color: #90A0B7;
+}
+
+.MainProfile {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.Drawer {
+
+}
+
+.Drawer ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.Drawer li {
+    padding-bottom: 1em;
+}
+
+a:hover, .act {
+    color: #109CF1;
+}
+
+a {
+    font-family: Poppins;
+    font-size: 13px;
+    text-decoration: none;
+    color: #334D6E;
+    display: flex;
+    align-items: center;
+}
+
+.MenuText {
+    margin-left: 1em;
+}
+
+.Link {
+    display: flex;
+    align-items: center;
+}
+
+.MenuToggle {
+    cursor: pointer;
+    margin-left: 1.3em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 1em;
+}
+
+.MenuToggle:hover {
+    opacity: 0.7;
+}
+
+.open {
+    font-family: Poppins;
+    font-size: 11px;
+    color: #90A0B7;
+}
+
+.MenuToggle text {
+    margin-left: 1em;
+}
+
+.line {
+    height: 0.07em;
+    width: 100%;
+    background-color: #C2CFE0;
+}

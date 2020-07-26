@@ -1,0 +1,6 @@
+.Dashboard {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E5E5;
+    height: 100%;
+}
