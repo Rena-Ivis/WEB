@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/WEB/static/css/main.61ef37ab.chunk.css",
+    "main.js": "/WEB/static/js/main.004d8b72.chunk.js",
+    "main.js.map": "/WEB/static/js/main.004d8b72.chunk.js.map",
+    "runtime-main.js": "/WEB/static/js/runtime-main.2685afa7.js",
+    "runtime-main.js.map": "/WEB/static/js/runtime-main.2685afa7.js.map",
+    "static/js/2.5799997e.chunk.js": "/WEB/static/js/2.5799997e.chunk.js",
+    "static/js/2.5799997e.chunk.js.map": "/WEB/static/js/2.5799997e.chunk.js.map",
+    "index.html": "/WEB/index.html",
+    "precache-manifest.88d9acdadfe5de1624c2bcb92582db96.js": "/WEB/precache-manifest.88d9acdadfe5de1624c2bcb92582db96.js",
+    "service-worker.js": "/WEB/service-worker.js",
+    "static/css/main.61ef37ab.chunk.css.map": "/WEB/static/css/main.61ef37ab.chunk.css.map",
+    "static/js/2.5799997e.chunk.js.LICENSE.txt": "/WEB/static/js/2.5799997e.chunk.js.LICENSE.txt",
+    "static/media/Chat.svg": "/WEB/static/media/Chat.ecccb54c.svg",
+    "static/media/ChatActive.svg": "/WEB/static/media/ChatActive.7cf0e676.svg",
+    "static/media/Contacts.svg": "/WEB/static/media/Contacts.e57581bb.svg",
+    "static/media/ContactsActive.svg": "/WEB/static/media/ContactsActive.792f1d7d.svg",
+    "static/media/Dashboard.svg": "/WEB/static/media/Dashboard.455384fc.svg",
+    "static/media/DashboardActive.svg": "/WEB/static/media/DashboardActive.7e325124.svg",
+    "static/media/Deals.svg": "/WEB/static/media/Deals.bb8b21f0.svg",
+    "static/media/DealsActive.svg": "/WEB/static/media/DealsActive.0f734e14.svg",
+    "static/media/Email.svg": "/WEB/static/media/Email.c75f4479.svg",
+    "static/media/EmailActive.svg": "/WEB/static/media/EmailActive.3fbb0fe3.svg",
+    "static/media/Profile.svg": "/WEB/static/media/Profile.53cf9beb.svg",
+    "static/media/Settings.svg": "/WEB/static/media/Settings.afc89239.svg",
+    "static/media/SettingsActive.svg": "/WEB/static/media/SettingsActive.ffabc5a1.svg",
+    "static/media/Tasks.svg": "/WEB/static/media/Tasks.284bf0ed.svg",
+    "static/media/TasksActive.svg": "/WEB/static/media/TasksActive.1df791af.svg",
+    "static/media/Toggle.svg": "/WEB/static/media/Toggle.49abfee8.svg",
+    "static/media/ToggleActive.svg": "/WEB/static/media/ToggleActive.6c804c24.svg",
+    "static/media/buttonInSrc.svg": "/WEB/static/media/buttonInSrc.48236af1.svg",
+    "static/media/src.svg": "/WEB/static/media/src.3241f743.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2685afa7.js",
+    "static/js/2.5799997e.chunk.js",
+    "static/css/main.61ef37ab.chunk.css",
+    "static/js/main.004d8b72.chunk.js"
+  ]
+}
