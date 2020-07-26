@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/WEB/static/css/main.4ccff366.chunk.css",
+    "main.css": "/WEB/static/css/main.7c35ad1b.chunk.css",
     "main.js": "/WEB/static/js/main.004d8b72.chunk.js",
     "main.js.map": "/WEB/static/js/main.004d8b72.chunk.js.map",
     "runtime-main.js": "/WEB/static/js/runtime-main.2685afa7.js",
@@ -8,9 +8,9 @@
     "static/js/2.5799997e.chunk.js": "/WEB/static/js/2.5799997e.chunk.js",
     "static/js/2.5799997e.chunk.js.map": "/WEB/static/js/2.5799997e.chunk.js.map",
     "index.html": "/WEB/index.html",
-    "precache-manifest.76efb984a8489627867e0424d6bb0d10.js": "/WEB/precache-manifest.76efb984a8489627867e0424d6bb0d10.js",
+    "precache-manifest.532ed9a741976c330b158f4af86c809d.js": "/WEB/precache-manifest.532ed9a741976c330b158f4af86c809d.js",
     "service-worker.js": "/WEB/service-worker.js",
-    "static/css/main.4ccff366.chunk.css.map": "/WEB/static/css/main.4ccff366.chunk.css.map",
+    "static/css/main.7c35ad1b.chunk.css.map": "/WEB/static/css/main.7c35ad1b.chunk.css.map",
     "static/js/2.5799997e.chunk.js.LICENSE.txt": "/WEB/static/js/2.5799997e.chunk.js.LICENSE.txt",
     "static/media/Chat.svg": "/WEB/static/media/Chat.ecccb54c.svg",
     "static/media/ChatActive.svg": "/WEB/static/media/ChatActive.7cf0e676.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.2685afa7.js",
     "static/js/2.5799997e.chunk.js",
-    "static/css/main.4ccff366.chunk.css",
+    "static/css/main.7c35ad1b.chunk.css",
     "static/js/main.004d8b72.chunk.js"
   ]
 }
