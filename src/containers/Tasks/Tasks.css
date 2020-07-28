@@ -101,6 +101,7 @@
 .panel button:disabled {
     background: #C2CFE0;
     border-radius: 4px;
+    cursor: default;
 }
 
 option {
@@ -145,16 +146,28 @@ select::-ms-expand {
 }
 
   .custom-checkbox+label::before, .custom-checkbox-count+label::before {
-    content: '';
-    display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 1.5em;
+    height: 1.5em;
     flex-shrink: 0;
     flex-grow: 0;
     border: 0.05em solid #adb5bd;
     border-radius: 25%;
     background-repeat: no-repeat;
     background-position: center center;
+    content: attr(count);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
 }
 
 .custom-checkbox:checked+label::before {

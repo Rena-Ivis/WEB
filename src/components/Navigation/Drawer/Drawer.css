@@ -1,0 +1,42 @@
+.Drawer {
+
+}
+
+.Drawer ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
+.Drawer li {
+    padding-bottom: 1em;
+}
+
+a:hover, .act {
+    color: #109CF1;
+}
+
+a {
+    font-family: Poppins;
+    font-size: 13px;
+    text-decoration: none;
+    color: #C2CFE0;
+    display: flex;
+    align-items: center;
+}
+
+a text{
+    color: #334D6E;
+}
+
+.act text{
+    color: #109CF1;
+}
+.MenuText {
+    margin-left: 1em;
+}
+
+.line {
+    height: 0.07em;
+    width: 100%;
+    background-color: #C2CFE0;
+}

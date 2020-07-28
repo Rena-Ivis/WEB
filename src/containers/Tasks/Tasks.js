@@ -110,7 +110,6 @@ export default class Tasks extends Component {
     }
 
     render() {
-        console.log(this.state.rows)
         return (
             <div className={'Tasks'}>
                 <div className={'panel'}>
@@ -120,7 +119,7 @@ export default class Tasks extends Component {
                         </select>
                     </text>
 
-                    <button>Add contact</button>
+                    <button disabled>Add contact</button>
                 </div>
 
                 <table className="Table">
@@ -129,15 +128,18 @@ export default class Tasks extends Component {
                              {this.state.all?
                                 <td colspan="8">
                                     <div style={{display: 'flex', alignItems: 'center'}}>
-                                <input type="checkbox" class="custom-checkbox-count" id="box2" onChange={()=>this.handleAllChecked()} checked={this.state.all}/>
-                                <label for="box2" style={{height: '3em'}}/>                             
-                                <text className={'countSelected'}> {this.state.count} selected</text>
-                                <i className="material-icons" style={{color: '#C2CFE0', fontSize: '1.5em'}}>delete</i>
-                                </div></td>
+                                        <input type="checkbox" class="custom-checkbox-count" id="box2" onChange={()=>this.handleAllChecked()} checked={this.state.all}/>
+                                        <label count={this.state.count} for="box2" style={{height: '3em'}}/>                            
+                                        <text className={'countSelected'}> {this.state.count} selected</text>
+                                        <i className="material-icons" style={{color: '#C2CFE0', fontSize: '1.5em'}}>delete</i>
+                                    </div>
+                                </td>
                             :
                             <React.Fragment>
-                                <td><input type="checkbox" class="custom-checkbox-count" id="box2" onChange={()=>this.handleAllChecked()} checked={this.state.all}/>
-                                <label for="box2" style={{height: '3em'}}/> </td>
+                                <td>
+                                    <input type="checkbox" class="custom-checkbox-count" id="box2" onChange={()=>this.handleAllChecked()} checked={this.state.all}/>
+                                    <label for="box2" style={{height: '3em'}}/> 
+                                </td>
                                 <td colspan="2">Name</td>
                                 <td style={{width:'20%'}}>Email
                                     <div className="material-icons" style={{color: '#C2CFE0', fontSize: '1.2em'}} onClick={()=>this.removeEmail()}>{this.state.email?'remove':'add'}</div>
