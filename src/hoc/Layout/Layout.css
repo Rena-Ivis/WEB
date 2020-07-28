@@ -34,11 +34,13 @@
 .Layout input{
     flex: 1;
 }
-.Layout input, .Layout button {
+.Layout input, .Layout form button {
     border: none;
     outline: none;
     background-color: white;
     display: flex;
+    height: 2.4em;
+    align-items: center;
 }
 
 .Layout form {
@@ -48,8 +50,10 @@
     height: 2.3em;
 }
 
-.Layout form img {
+.Layout form i, .Layout form img {
     padding: 0.4em;
+    color: #C2CFE0;
+    font-size: 1.2em;
 }
 
 .Nickname {
@@ -151,3 +155,25 @@ a {
     width: 100%;
     background-color: #C2CFE0;
 }
+@font-face {
+    font-family: 'Material Icons Outlined';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialiconsoutlined/v22/gok-H7zzDkdnRel8-DQ6KAXJ69wP1tGnf4ZGhUce.woff2) format('woff2');
+  }
+
+.material-icons-outlined {
+    font-family: 'Material Icons Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }

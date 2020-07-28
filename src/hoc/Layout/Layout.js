@@ -3,19 +3,20 @@ import {NavLink} from 'react-router-dom'
 import './Layout.css'
 
 const links = [
-    {to: '/', label: 'Dashboard', exact: true},
-    {to: '/tasks', label: 'Tasks', exact: true},
-    {to: '/email', label: 'Email', exact: true},
-    {to: '/contacts', label: 'Contacts', exact: true},
-    {to: '/chat', label: 'Chat', exact: true},
-    {to: '/deals', label: 'Deals', exact: true},
+    {to: '/', label: 'Dashboard', exact: true, icon: 'dashboard'},
+    {to: '/tasks', label: 'Tasks', exact: true, icon: 'view_agenda'},
+    {to: '/email', label: 'Email', exact: true, icon: 'email'},
+    {to: '/contacts', label: 'Contacts', exact: true, icon: 'person_outline'},
+    {to: '/chat', label: 'Chat', exact: true, icon: 'chat_bubble_outline'},
+    {to: '/deals', label: 'Deals', exact: true, icon: 'view_week'},
 ]
 
 class Layout extends Component {
 
     state = {
         menu: true,
-        pathImg: ''
+        pathImg: '',
+        indexMenu: 0
     }
 
     renderLinks() {
@@ -27,8 +28,8 @@ class Layout extends Component {
                         to={link.to}
                         exact={link.exact}
                         activeClassName={'act'}
-                    >                        
-                        <img src={require(`../../Image/${this.state.pathImg}.svg`)}/>
+                    > 
+                        <i className="material-icons-outlined">{link.icon}</i>
                         {this.state.menu?<text className={'MenuText'}>{link.label}</text>:null}
                     </NavLink>
                 </li>
@@ -73,7 +74,7 @@ class Layout extends Component {
                                         activeClassName={'act'}
                                         style={{paddingLeft: '1em', paddingTop: '1em'}}
                                     >                        
-                                        <img src={require(`../../Image/Settings.svg`)}/>
+                                        <i className="material-icons-outlined">more_horiz</i>
                                         {this.state.menu?<text className={'MenuText'}>Settings</text>:null}
                                     </NavLink>
                         </nav>
@@ -91,7 +92,7 @@ class Layout extends Component {
                 <div className={'WithoutMenu'}>
                     <div className={'Search'}>
                         <form>
-                            <img src={require('../../Image/src.svg')}/>
+                            <i className="material-icons-outlined">search</i>
                             <input name="search" placeholder="Искать здесь..." type="search"/>
                             <button type="submit"><img src={require('../../Image/buttonInSrc.svg')}/></button>
                         </form>

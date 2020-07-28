@@ -1,3 +1,181 @@
 .Tasks {
-    
+    background-color: #E5E5E5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Table {
+    border-collapse: collapse;
+    border-radius: 0.5em;
+    min-width: 95%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.Table tr {
+    border: 0.1em solid #E5E5E5
+}
+
+.Table td {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    color: rgba(51, 77, 110, 0.5);
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+.Name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #323C47;
+}
+
+.Table img {
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+}
+
+.ImgTh {
+    padding: 0.5em 0.5em 0.5em 0;
+    width: 3em;
+}
+
+.panel {
+    min-width: 95%;
+    display: flex;
+}
+.panel text {
+    flex: 1;
+    margin: 3em 0em 2em 0em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+    color: #6A707E;
+    display: flex;
+    align-items: flex-end;
+}
+
+.panel button {
+    padding: 1em 2em 1em 2em;
+    margin: 3em 0em 2em 0em;
+    background: #109CF1;
+    box-shadow: 0px 4px 10px rgba(16, 156, 241, 0.24);
+    border-radius: 4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none
+}
+
+.panel button:hover {
+    background: #34AFF9;
+    box-shadow: 0px 8px 16px rgba(52, 175, 249, 0.2);
+    border-radius: 4px;
+}
+
+.panel button:active {
+    background: #098EDF;
+    box-shadow: 0px 2px 6px rgba(9, 142, 223, 0.3);
+    border-radius: 4px;
+}
+
+.panel button:disabled {
+    background: #C2CFE0;
+    border-radius: 4px;
+}
+
+option {
+    color: #109CF1;
+}
+
+select {
+    width: 2em;
+    border: none;
+    background-color: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('../../Image/Arrow.svg') no-repeat right;
+    color: #109CF1;
+}
+
+/* CAUTION: IE hackery ahead */
+select::-ms-expand { 
+    display: none; /* remove default arrow on ie10 and ie11 */
+}
+.ActiveTr {
+    background-color: #F2F9FF;
+}
+
+.Tr {
+    background-color: white;
+}
+
+.custom-checkbox, .custom-checkbox-count {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox+label, .custom-checkbox-count+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    font-size: 13px;
+    padding-left: 1em;
+}
+
+  .custom-checkbox+label::before, .custom-checkbox-count+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 0.05em solid #adb5bd;
+    border-radius: 25%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.custom-checkbox:checked+label::before {
+    border-color: #109CF1;
+    background-color:  #109CF1;
+    background-image: url('../../Image/checked.svg');
+}
+
+.custom-checkbox-count:checked+label::before {
+    border-color: #109CF1;
+    background-color:  #109CF1;
+}
+
+.countSelected {
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    color: #334D6E;
 }
