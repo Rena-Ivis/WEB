@@ -8,13 +8,13 @@ function App() {
   return (
     <Layout>
       <Switch> 
-        <Route path='/tasks' component={Tasks}/>
-        {/* <Route path='/email' component={}/>
-        <Route path='/contacts' component={}/>
-        <Route path='/chat' component={}/>
-        <Route path='/deals' component={}/>
-        <Route path='/settings' component={}/> */}
-        <Route path='/' component={Dashboard}/>
+        <Route exact path='/WEB/' component={Dashboard}/>
+        <Route path='/WEB/tasks' component={Tasks}/>
+        {/* <Route path='/WEB/email' component={}/>
+        <Route path='/WEB/contacts' component={}/>
+        <Route path='/WEB/chat' component={}/>
+        <Route path='/WEB/deals' component={}/>
+        <Route path='/WEB/settings' component={}/> */} 
       </Switch>
     </Layout>
   );

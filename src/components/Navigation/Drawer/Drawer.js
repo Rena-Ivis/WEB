@@ -3,12 +3,12 @@ import {NavLink} from 'react-router-dom'
 import './Drawer.css'
 
 const links = [
-    {to: '/', label: 'Dashboard', exact: true, icon: 'dashboard'},
-    {to: '/tasks', label: 'Tasks', exact: true, icon: 'view_agenda'},
-    {to: '/email', label: 'Email', exact: true, icon: 'email'},
-    {to: '/contacts', label: 'Contacts', exact: true, icon: 'person_outline'},
-    {to: '/chat', label: 'Chat', exact: true, icon: 'chat_bubble_outline'},
-    {to: '/deals', label: 'Deals', exact: true, icon: 'view_week'},
+    {to: '/WEB/', label: 'Dashboard', exact: true, icon: 'dashboard'},
+    {to: '/WEB/tasks', label: 'Tasks', exact: false, icon: 'view_agenda'},
+    {to: '/WEB/email', label: 'Email', exact: false, icon: 'email'},
+    {to: '/WEB/contacts', label: 'Contacts', exact: false, icon: 'person_outline'},
+    {to: '/WEB/chat', label: 'Chat', exact: false, icon: 'chat_bubble_outline'},
+    {to: '/WEB/deals', label: 'Deals', exact: false, icon: 'view_week'},
 ]
 
 
@@ -45,7 +45,7 @@ class Drawer extends Component {
                 <div className='line'/>
                 <NavLink
                     to={'/settings'}
-                    exact={true}
+                    exact={false}
                     activeClassName={'act'}
                     style={{paddingLeft: '1em', paddingTop: '1em'}}
                 >                        
