@@ -15,7 +15,8 @@
 }
 
 .Table tr {
-    border: 0.1em solid #E5E5E5
+    border: 0.1em solid #E5E5E5;
+    height: 3.5em;
 }
 
 .Table td {
@@ -41,12 +42,12 @@
 
 .Table img {
     border-radius: 50%;
-    width: 3em;
-    height: 3em;
+    width: 2em;
+    height: 2em;
+    display: block;
 }
 
 .ImgTh {
-    padding: 0.5em 0.5em 0.5em 0;
     width: 3em;
 }
 
@@ -138,7 +139,7 @@ select::-ms-expand {
 }
 
 .custom-checkbox+label, .custom-checkbox-count+label {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     user-select: none;
     font-size: 13px;
@@ -150,7 +151,7 @@ select::-ms-expand {
     height: 1.5em;
     flex-shrink: 0;
     flex-grow: 0;
-    border: 0.05em solid #adb5bd;
+    border: 0.15em solid #adb5bd;
     border-radius: 25%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -182,8 +183,8 @@ select::-ms-expand {
 }
 
 .countSelected {
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;

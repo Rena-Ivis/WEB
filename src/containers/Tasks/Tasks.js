@@ -113,8 +113,8 @@ export default class Tasks extends Component {
         return (
             <div className={'Tasks'}>
                 <div className={'panel'}>
-                    <text>Company: 
-                        <select>
+                    <text>Company:  
+                        <select style={{marginLeft: '0.5em'}}>
                             <option>All</option>
                         </select>
                     </text>
@@ -124,7 +124,7 @@ export default class Tasks extends Component {
 
                 <table className="Table">
                     <thead>
-                        <tr className={'Tr'}>
+                        <tr style={{border: '0.1em solid #E5E5E5', height: '3em', backgroundColor: '#fff'}}>
                              {this.state.all?
                                 <td colspan="8">
                                     <div style={{display: 'flex', alignItems: 'center'}}>

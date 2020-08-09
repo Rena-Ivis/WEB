@@ -42,11 +42,17 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 2.3em;
+    height: 2.7em;
 }
 
-.Layout form i, .Layout form img {
-    padding: 0.4em;
+.Layout form i {
+    padding: 0.5em 0.5em 0.5em 1.5em;
+    color: #C2CFE0;
+    font-size: 1.2em;
+}
+
+.Layout form img {
+    padding: 0.5em 1.5em 0.5em 0.5em;
     color: #C2CFE0;
     font-size: 1.2em;
 }
